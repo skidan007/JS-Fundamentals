@@ -1,4 +1,4 @@
-const args = [30, 20, 4];
+const args = process.argv.slice(2);
 
 if (args[0] === undefined) {
   console.log("No argument");
