@@ -1,5 +1,5 @@
 
-const count = 0;
+const count = 1;
 
 if (count === 0) {
   console.log("No argument");
@@ -8,3 +8,4 @@ if (count === 0) {
 } else {
   console.log("Arguments found");
 }
+
